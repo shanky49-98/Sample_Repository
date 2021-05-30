@@ -30,7 +30,7 @@ X = X.reshape(X.shape[0], 28, 28, 1)
 X = X.astype('float32')
 X /= 255
 
-
+# Adding this comment to test changing in GitHub Desktop
 
 train_datagen = ImageDataGenerator(rescale = 1./255, shear_range = 0.2,zoom_range = 0.2, horizontal_flip = True)
 
